@@ -37,7 +37,7 @@ const MovieForm = ({ onClose, setFooter }: MovieFormProps) => {
     if (formData.year > 2000) {
       newErrors.year = "Release year cannot be later than 2000.";
     }
-    if (formData.year < 1888) {
+    if (formData.year < 1500) {
       newErrors.year = "Please enter a valid release year.";
     }
 
